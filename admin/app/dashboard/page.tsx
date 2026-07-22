@@ -30,7 +30,7 @@ export default function Dashboard() {
       const authToken = reduxToken || localStorage.getItem("token");
 
       const response = await axios.get(
-        "http://localhost:5001/api/admin/profile",
+        "https://renewcred-cms-1.onrender.com/api/admin/profile",
         {
           headers: {
             Authorization: `Bearer ${authToken}`,

@@ -18,7 +18,7 @@ export default function PublicPage() {
   const fetchPage = async () => {
     try {
       const response = await axios.get(
-        `http://localhost:5001/api/public/pages/${params.slug}`
+        `https://renewcred-cms-1.onrender.com/api/public/pages/${params.slug}`
       );
 
       setPage(response.data.page);

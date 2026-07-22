@@ -20,7 +20,7 @@ If no administrator exists in the database, create one using your preferred Mong
 
 ## Backend
 
-http://localhost:5001
+https://renewcred-cms-1.onrender.com
 
 ## Admin Panel
 

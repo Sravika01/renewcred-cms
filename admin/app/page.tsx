@@ -16,7 +16,7 @@ export default function Home() {
 
   try {
     const response = await axios.post(
-      "http://localhost:5001/api/admin/login",
+      "https://renewcred-cms-1.onrender.com/api/admin/login",
       {
         email,
         password,

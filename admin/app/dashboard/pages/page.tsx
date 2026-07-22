@@ -14,7 +14,7 @@ export default function Pages() {
       const token = localStorage.getItem("token");
 
       const response = await axios.get(
-        "http://localhost:5001/api/pages",
+        "https://renewcred-cms-1.onrender.com/api/pages",
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -46,7 +46,7 @@ export default function Pages() {
       const token = localStorage.getItem("token");
 
       await axios.delete(
-        `http://localhost:5001/api/pages/${id}`,
+        `https://renewcred-cms-1.onrender.com/api/pages/${id}`,
         {
           headers: {
             Authorization: `Bearer ${token}`,

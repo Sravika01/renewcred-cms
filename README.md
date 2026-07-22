@@ -100,7 +100,7 @@ npm run dev
 Runs on
 
 ```
-http://localhost:5001
+https://renewcred-cms-1.onrender.com
 ```
 
 ---
@@ -233,6 +233,6 @@ docker compose up --build
 
 This starts:
 
-- Backend: http://localhost:5001
+- Backend: https://renewcred-cms-1.onrender.com
 - Admin Panel: http://localhost:3000
 - Public Website: http://localhost:3001

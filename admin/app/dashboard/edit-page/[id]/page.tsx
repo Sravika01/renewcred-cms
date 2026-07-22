@@ -24,7 +24,7 @@ export default function EditPage() {
       const token = localStorage.getItem("token");
 
       const response = await axios.get(
-        `http://localhost:5001/api/pages/${params.id}`,
+        `https://renewcred-cms-1.onrender.com/api/pages/${params.id}`,
         {
           headers: {
             Authorization: `Bearer ${token}`,
@@ -52,7 +52,7 @@ export default function EditPage() {
       const token = localStorage.getItem("token");
 
       await axios.put(
-        `http://localhost:5001/api/pages/${params.id}`,
+        `https://renewcred-cms-1.onrender.com/api/pages/${params.id}`,
         {
           title,
           slug,

@@ -20,7 +20,7 @@ export default function AddPage() {
       const token = localStorage.getItem("token");
 
       await axios.post(
-        "http://localhost:5001/api/pages",
+        "https://renewcred-cms-1.onrender.com/api/pages",
         {
           title,
           slug,
