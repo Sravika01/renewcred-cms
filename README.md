@@ -132,7 +132,7 @@ npm run dev
 Runs on
 
 ```
-http://localhost:3001
+(https://renewcred-cms-two.vercel.app/)
 ```
 
 (Change the port if required.)
