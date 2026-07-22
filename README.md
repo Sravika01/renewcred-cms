@@ -11,6 +11,11 @@ The project consists of three applications:
 The public website retrieves all content dynamically from the backend instead of using hardcoded data.
 
 ---
+#login 
+#email 
+test@gmail.com
+#password
+123456
 
 # Features
 
