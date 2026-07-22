@@ -11,11 +11,22 @@ The project consists of three applications:
 The public website retrieves all content dynamically from the backend instead of using hardcoded data.
 
 ---
-login 
-email 
+## 🔐 Admin Login
+
+Use the following credentials to access the Admin CMS:
+
+**Admin URL:**  
+https://renewcred-cms-two.vercel.app
+
+**Email:**
+```text
 test@gmail.com
-password
+```
+
+**Password:**
+```text
 123456
+```
 
 # Features
 
